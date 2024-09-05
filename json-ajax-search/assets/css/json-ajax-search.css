@@ -1,0 +1,58 @@
+#json-ajax-search {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#json-ajax-search-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#json-ajax-search-form input {
+    flex: 1;
+    padding: 5px;
+}
+
+#json-ajax-search-form button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#json-ajax-search-results table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#json-ajax-search-results th,
+#json-ajax-search-results td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#json-ajax-search-results th {
+    background-color: #f2f2f2;
+}
+
+#json-ajax-search-pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#json-ajax-search-pagination .page-number {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: #f2f2f2;
+    text-decoration: none;
+    color: #333;
+}
+
+#json-ajax-search-pagination .page-number.current {
+    background-color: #007bff;
+    color: #fff;
+}
